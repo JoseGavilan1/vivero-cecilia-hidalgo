@@ -18,7 +18,7 @@ export function CategorySection({ categoria }) {
           <div key={index} className="group relative h-64 overflow-hidden rounded-2xl shadow-sm">
             <img 
               src={img} 
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 hover:rotate-2" 
               alt="Vista de planta" 
             />
             <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>

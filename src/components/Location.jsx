@@ -7,7 +7,7 @@ export function Location() {
         <div>
           <h2 className="text-3xl font-bold text-gray-800">Ven a visitarnos 🌱</h2>
           <p className="mt-4 text-gray-600 leading-relaxed">
-            Estamos ubicados en el corazón de **Curacaví**. 
+            Estamos ubicados en el corazón de <strong>Curacaví</strong>. 
             Contamos con una gran variedad de plantas ornamentales, frutales y suculentas. 
             ¡Te esperamos para asesorarte en tu jardín!
           </p>
@@ -16,7 +16,10 @@ export function Location() {
               <span className="font-bold mr-2">📍 Dirección:</span> Callejon la capilla, Vivero Cecilia Hidalgo
             </p>
             <p className="flex items-center text-gray-700">
-              <span className="font-bold mr-2">⏰ Horario:</span> Lun - Sáb: 10:00 a 19:00 hrs
+              <span className="font-bold mr-2">⏰ Horario:</span> Todos los días de 08:00 a 19:00 hrs
+            </p>
+            <p className="flex items-center text-gray-700">
+              <span className="font-bold mr-2">📞 Teléfono:</span> +569 4701 8834
             </p>
           </div>
         </div>
