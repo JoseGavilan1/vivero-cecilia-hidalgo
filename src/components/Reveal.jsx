@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 
 export function Reveal({ children }) {
-  // Guardamos el componente en una variable con Mayúscula 
-  // para que el linter entienda que es un Componente de React.
   const MotionDiv = motion.div;
 
   return (

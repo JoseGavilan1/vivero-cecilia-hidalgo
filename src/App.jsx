@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="min-h-screen bg-[#F9F7F2] text-stone-800">
       <Reveal>
-        {/* Header Premium */}
         <header className="relative h-[60vh] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img
@@ -36,7 +35,6 @@ function App() {
       </Reveal>
 
       <Reveal>
-        {/* Catálogo por Categorías */}
         <main className="max-w-6xl mx-auto py-20 px-6">
           <h2 className="text-center text-4xl font-serif mb-20">
             Nuestro Catálogo
@@ -52,13 +50,11 @@ function App() {
       </Reveal>
 
       <Reveal>
-        {/* Ubicación */}
         <div className="bg-stone-100 py-10">
           <Location />
         </div>
       </Reveal>
 
-      {/* Footer elegante */}
       <footer className="bg-stone-900 text-stone-400 py-16 px-6 text-center">
         <h3 className="text-white text-2xl font-serif mb-4">
           Vivero Cecilia Hidalgo
